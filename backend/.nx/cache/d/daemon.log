@@ -1,0 +1,122 @@
+[NX Daemon Server] - 2024-04-03T15:31:00.418Z - Started listening on: /tmp/22505528b23107afa57f/d.sock
+[NX Daemon Server] - 2024-04-03T15:31:00.419Z - [WATCHER]: Subscribed to changes within: /home/flow/Documentos/Pepa/PoC/server-driven-ui (native)
+[NX Daemon Server] - 2024-04-03T15:31:00.422Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-04-03T15:31:00.423Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-04-03T15:31:00.424Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-04-03T15:31:00.425Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-04-03T15:31:00.425Z - [REQUEST]: 
+[NX Daemon Server] - 2024-04-03T15:31:00.425Z - [REQUEST]: 
+
+ NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
+
+Use "namedInputs" instead. You can run "nx repair" to automatically migrate your configuration.
+For more information about the usage of "namedInputs" see https://nx.dev/deprecated/global-implicit-dependencies#global-implicit-dependencies
+
+[NX Daemon Server] - 2024-04-03T15:31:00.512Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-04-03T15:31:00.512Z - Time taken for 'total for creating and serializing project graph' 87.46165899932384ms
+[NX Daemon Server] - 2024-04-03T15:31:00.512Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-04-03T15:31:00.513Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-04-03T15:31:00.513Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 88. Response time: 1.
+[NX Daemon Server] - 2024-04-03T15:31:01.025Z - [WATCHER]: 7 file(s) created or restored, 4 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2024-04-03T15:31:01.026Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-04-03T15:31:01.127Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-04-03T15:31:01.127Z - [REQUEST]: libs/pepa/sdui/project.json,libs/pepa/sdui/.eslintrc.json,libs/pepa/sdui/README.md,libs/pepa/sdui/tsconfig.lib.json,libs/pepa/sdui/tsconfig.spec.json,libs/pepa/sdui/tsconfig.json,libs/pepa/sdui/jest.config.ts,nx.json,tsconfig.base.json,package.json,libs/pepa/sdui/src/lib/pepa-sdui.module.ts
+[NX Daemon Server] - 2024-04-03T15:31:01.127Z - [REQUEST]: 
+
+ NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
+
+Use "namedInputs" instead. You can run "nx repair" to automatically migrate your configuration.
+For more information about the usage of "namedInputs" see https://nx.dev/deprecated/global-implicit-dependencies#global-implicit-dependencies
+
+[NX Daemon Server] - 2024-04-03T15:31:01.171Z - Time taken for 'hash changed files from watcher' 0.35162200033664703ms
+[NX Daemon Server] - 2024-04-03T15:31:08.160Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-04-03T15:31:08.161Z - [WATCHER]: Stopping the watcher for /home/flow/Documentos/Pepa/PoC/server-driven-ui (sources)
+[NX Daemon Server] - 2024-04-03T15:31:08.161Z - [WATCHER]: Stopping the watcher for /home/flow/Documentos/Pepa/PoC/server-driven-ui (outputs)
+[NX Daemon Server] - 2024-04-03T15:31:08.161Z - Server stopped because: "Lock file changed"
+[NX Daemon Server] - 2024-04-03T15:33:41.448Z - Started listening on: /tmp/22505528b23107afa57f/d.sock
+[NX Daemon Server] - 2024-04-03T15:33:41.449Z - [WATCHER]: Subscribed to changes within: /home/flow/Documentos/Pepa/PoC/server-driven-ui (native)
+[NX Daemon Server] - 2024-04-03T15:33:41.450Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-04-03T15:33:41.451Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-04-03T15:33:41.453Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-04-03T15:33:41.454Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-04-03T15:33:41.454Z - [REQUEST]: 
+[NX Daemon Server] - 2024-04-03T15:33:41.454Z - [REQUEST]: 
+
+ NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
+
+Use "namedInputs" instead. You can run "nx repair" to automatically migrate your configuration.
+For more information about the usage of "namedInputs" see https://nx.dev/deprecated/global-implicit-dependencies#global-implicit-dependencies
+
+[NX Daemon Server] - 2024-04-03T15:33:41.517Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-04-03T15:33:41.518Z - Time taken for 'total for creating and serializing project graph' 64.3448360003531ms
+[NX Daemon Server] - 2024-04-03T15:33:41.518Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-04-03T15:33:41.518Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-04-03T15:33:41.519Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 64. Response time: 2.
+[NX Daemon Server] - 2024-04-03T15:33:42.051Z - [WATCHER]: 7 file(s) created or restored, 5 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2024-04-03T15:33:42.052Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-04-03T15:33:42.153Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-04-03T15:33:42.153Z - [REQUEST]: libs/sdui/src/lib/sdui.module.ts,libs/sdui/tsconfig.spec.json,libs/sdui/README.md,libs/sdui/jest.config.ts,libs/sdui/tsconfig.lib.json,libs/sdui/project.json,libs/sdui/.eslintrc.json,tsconfig.base.json,package.json,libs/sdui/tsconfig.json,libs/sdui/src/index.ts,nx.json
+[NX Daemon Server] - 2024-04-03T15:33:42.153Z - [REQUEST]: 
+
+ NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
+
+Use "namedInputs" instead. You can run "nx repair" to automatically migrate your configuration.
+For more information about the usage of "namedInputs" see https://nx.dev/deprecated/global-implicit-dependencies#global-implicit-dependencies
+
+[NX Daemon Server] - 2024-04-03T15:33:42.209Z - Time taken for 'hash changed files from watcher' 0.31766900047659874ms
+[NX Daemon Server] - 2024-04-03T15:33:47.762Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-04-03T15:33:47.763Z - [WATCHER]: Stopping the watcher for /home/flow/Documentos/Pepa/PoC/server-driven-ui (sources)
+[NX Daemon Server] - 2024-04-03T15:33:47.763Z - [WATCHER]: Stopping the watcher for /home/flow/Documentos/Pepa/PoC/server-driven-ui (outputs)
+[NX Daemon Server] - 2024-04-03T15:33:47.763Z - Server stopped because: "Lock file changed"
+[NX Daemon Server] - 2024-04-03T17:21:23.393Z - Started listening on: /tmp/22505528b23107afa57f/d.sock
+[NX Daemon Server] - 2024-04-03T17:21:23.394Z - [WATCHER]: Subscribed to changes within: /home/flow/Documentos/Pepa/PoC/server-driven-ui (native)
+[NX Daemon Server] - 2024-04-03T17:21:23.401Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-04-03T17:21:23.402Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-04-03T17:21:23.403Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-04-03T17:21:23.404Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-04-03T17:21:23.404Z - [REQUEST]: 
+[NX Daemon Server] - 2024-04-03T17:21:23.404Z - [REQUEST]: 
+
+ NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
+
+Use "namedInputs" instead. You can run "nx repair" to automatically migrate your configuration.
+For more information about the usage of "namedInputs" see https://nx.dev/deprecated/global-implicit-dependencies#global-implicit-dependencies
+
+[NX Daemon Server] - 2024-04-03T17:21:23.520Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-04-03T17:21:23.521Z - Time taken for 'total for creating and serializing project graph' 116.31907900050282ms
+[NX Daemon Server] - 2024-04-03T17:21:23.521Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-04-03T17:21:23.521Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-04-03T17:21:23.521Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 117. Response time: 1.
+[NX Daemon Server] - 2024-04-03T17:21:23.546Z - [REQUEST]: Responding to the client. handleHashTasks
+[NX Daemon Server] - 2024-04-03T17:21:23.546Z - Done responding to the client handleHashTasks
+[NX Daemon Server] - 2024-04-03T17:21:23.546Z - Handled HASH_TASKS. Handling time: 5. Response time: 0.
+[NX Daemon Server] - 2024-04-03T17:21:24.162Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX Daemon Server] - 2024-04-03T17:21:24.162Z - Done responding to the client recordOutputsHash
+[NX Daemon Server] - 2024-04-03T17:21:24.162Z - Handled RECORD_OUTPUTS_HASH. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-04-03T17:21:24.166Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-04-03T17:22:04.797Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-04-03T17:22:04.798Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-04-03T17:22:04.799Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-04-03T17:22:04.800Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-04-03T17:22:04.800Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-04-03T17:22:04.800Z - Time taken for 'total for creating and serializing project graph' 0.11123299971222878ms
+[NX Daemon Server] - 2024-04-03T17:22:04.801Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-04-03T17:22:04.801Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-04-03T17:22:04.838Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-04-03T17:22:21.180Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-04-03T17:22:21.181Z - [WATCHER]: package.json was modified
+[NX Daemon Server] - 2024-04-03T17:22:21.282Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-04-03T17:22:21.282Z - [REQUEST]: package.json
+[NX Daemon Server] - 2024-04-03T17:22:21.282Z - [REQUEST]: 
+
+ NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
+
+Use "namedInputs" instead. You can run "nx repair" to automatically migrate your configuration.
+For more information about the usage of "namedInputs" see https://nx.dev/deprecated/global-implicit-dependencies#global-implicit-dependencies
+
+[NX Daemon Server] - 2024-04-03T17:22:21.304Z - Time taken for 'hash changed files from watcher' 0.09621400013566017ms
+[NX Daemon Server] - 2024-04-03T17:22:22.340Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-04-03T17:22:32.374Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-04-03T17:22:32.375Z - [WATCHER]: Stopping the watcher for /home/flow/Documentos/Pepa/PoC/server-driven-ui (sources)
+[NX Daemon Server] - 2024-04-03T17:22:32.375Z - [WATCHER]: Stopping the watcher for /home/flow/Documentos/Pepa/PoC/server-driven-ui (outputs)
+[NX Daemon Server] - 2024-04-03T17:22:32.375Z - Server stopped because: "Lock file changed"

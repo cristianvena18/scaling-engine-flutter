@@ -1,0 +1,285 @@
+{
+  "version": "6.0",
+  "nxVersion": "18.2.2",
+  "deps": {
+    "@nestjs/common": "^10.0.2",
+    "@nestjs/core": "^10.0.2",
+    "@nestjs/platform-express": "^10.0.2",
+    "@nx/nest": "^18.2.2",
+    "reflect-metadata": "^0.1.13",
+    "rxjs": "^7.8.0",
+    "tslib": "^2.3.0",
+    "@nestjs/schematics": "^10.0.1",
+    "@nestjs/testing": "^10.0.2",
+    "@nrwl/cli": "14.5.0",
+    "@nrwl/eslint-plugin-nx": "14.5.0",
+    "@nrwl/jest": "14.5.0",
+    "@nrwl/linter": "14.5.0",
+    "@nrwl/nest": "14.5.0",
+    "@nrwl/node": "14.5.0",
+    "@nrwl/workspace": "14.5.0",
+    "@nx/jest": "18.2.2",
+    "@nx/js": "18.2.2",
+    "@swc-node/register": "~1.8.0",
+    "@swc/core": "~1.3.85",
+    "@swc/helpers": "~0.5.2",
+    "@types/jest": "^29.4.0",
+    "@types/node": "18.16.9",
+    "@typescript-eslint/eslint-plugin": "^5.29.0",
+    "@typescript-eslint/parser": "^5.29.0",
+    "eslint": "~8.15.0",
+    "eslint-config-prettier": "8.1.0",
+    "jest": "^29.4.1",
+    "jest-environment-node": "^29.4.1",
+    "nx": "14.5.0",
+    "prettier": "^2.6.2",
+    "ts-jest": "^29.1.0",
+    "ts-node": "10.9.1",
+    "typescript": "~5.4.2"
+  },
+  "pathMappings": {
+    "@pepa/sdui": [
+      "libs/sdui/src/index.ts"
+    ]
+  },
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "nonProjectFiles": [
+      {
+        "file": ".eslintrc.json",
+        "hash": "15388041757782744192"
+      },
+      {
+        "file": ".vscode/extensions.json",
+        "hash": "235626400633494639"
+      },
+      {
+        "file": "nx.json",
+        "hash": "333697056144022937"
+      },
+      {
+        "file": "tools/generators/.gitkeep",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "README.md",
+        "hash": "12175699036073431685"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "7053863359533788263"
+      },
+      {
+        "file": "jest.preset.js",
+        "hash": "2772139696069860212"
+      },
+      {
+        "file": "workspace.json",
+        "hash": "840678229616270632"
+      },
+      {
+        "file": "apps/.gitkeep",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "15189501567819114005"
+      },
+      {
+        "file": "libs/.gitkeep",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": ".editorconfig",
+        "hash": "5443105041930014821"
+      },
+      {
+        "file": "jest.config.ts",
+        "hash": "2950215254536237782"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "594232218447620138"
+      },
+      {
+        "file": ".prettierignore",
+        "hash": "17733650430415207254"
+      },
+      {
+        "file": "package.json",
+        "hash": "3957663697205229647"
+      },
+      {
+        "file": ".prettierrc",
+        "hash": "16267754514737964994"
+      },
+      {
+        "file": "tools/tsconfig.tools.json",
+        "hash": "16088922570277978783"
+      }
+    ],
+    "projectFileMap": {
+      "api": [
+        {
+          "file": "apps/api/.eslintrc.json",
+          "hash": "13800677001662881425"
+        },
+        {
+          "file": "apps/api/jest.config.ts",
+          "hash": "6009935630386182799"
+        },
+        {
+          "file": "apps/api/project.json",
+          "hash": "7407439250053159451"
+        },
+        {
+          "file": "apps/api/src/app/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/api/src/app/app.controller.spec.ts",
+          "hash": "15859953346642325947",
+          "deps": [
+            "npm:@nestjs/testing"
+          ]
+        },
+        {
+          "file": "apps/api/src/app/app.controller.ts",
+          "hash": "8939562543161943409",
+          "deps": [
+            "npm:@nestjs/common",
+            "sdui"
+          ]
+        },
+        {
+          "file": "apps/api/src/app/app.module.ts",
+          "hash": "3163250445227373966",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/api/src/app/app.service.spec.ts",
+          "hash": "6332748756781370420",
+          "deps": [
+            "npm:@nestjs/testing"
+          ]
+        },
+        {
+          "file": "apps/api/src/app/app.service.ts",
+          "hash": "17620986732237574461",
+          "deps": [
+            "npm:@nestjs/common",
+            "sdui"
+          ]
+        },
+        {
+          "file": "apps/api/src/assets/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/api/src/environments/environment.prod.ts",
+          "hash": "10220522844224226756"
+        },
+        {
+          "file": "apps/api/src/environments/environment.ts",
+          "hash": "1135292433917692033"
+        },
+        {
+          "file": "apps/api/src/main.ts",
+          "hash": "13471073668411303754",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/core"
+          ]
+        },
+        {
+          "file": "apps/api/tsconfig.app.json",
+          "hash": "11672891240027085407"
+        },
+        {
+          "file": "apps/api/tsconfig.json",
+          "hash": "9214820933160915425"
+        },
+        {
+          "file": "apps/api/tsconfig.spec.json",
+          "hash": "10595040461224341030"
+        }
+      ],
+      "sdui": [
+        {
+          "file": "libs/sdui/.eslintrc.json",
+          "hash": "13800677001662881425"
+        },
+        {
+          "file": "libs/sdui/README.md",
+          "hash": "2342023895534997186"
+        },
+        {
+          "file": "libs/sdui/jest.config.ts",
+          "hash": "13323196252579703011"
+        },
+        {
+          "file": "libs/sdui/project.json",
+          "hash": "9120711367617009448"
+        },
+        {
+          "file": "libs/sdui/src/components/Children.ts",
+          "hash": "6652445418100612701"
+        },
+        {
+          "file": "libs/sdui/src/components/SimpleView.ts",
+          "hash": "4039134059742344477"
+        },
+        {
+          "file": "libs/sdui/src/components/SnackBar.ts",
+          "hash": "12338712452124399336"
+        },
+        {
+          "file": "libs/sdui/src/components/Toolbar.ts",
+          "hash": "11655221137760915907"
+        },
+        {
+          "file": "libs/sdui/src/components/index.ts",
+          "hash": "13676354195470460831"
+        },
+        {
+          "file": "libs/sdui/src/helpers/ErrorHandler.ts",
+          "hash": "7395509489278410329"
+        },
+        {
+          "file": "libs/sdui/src/helpers/index.ts",
+          "hash": "13098661705206240681"
+        },
+        {
+          "file": "libs/sdui/src/index.ts",
+          "hash": "6775182166833623809"
+        },
+        {
+          "file": "libs/sdui/src/types/Cta.ts",
+          "hash": "9578155402604051908"
+        },
+        {
+          "file": "libs/sdui/src/types/Primitives.ts",
+          "hash": "10988048632335599053"
+        },
+        {
+          "file": "libs/sdui/src/types/index.ts",
+          "hash": "3858123671024060160"
+        },
+        {
+          "file": "libs/sdui/tsconfig.json",
+          "hash": "5840880287502376438"
+        },
+        {
+          "file": "libs/sdui/tsconfig.lib.json",
+          "hash": "3550173832616418300"
+        },
+        {
+          "file": "libs/sdui/tsconfig.spec.json",
+          "hash": "11550347367511341917"
+        }
+      ]
+    }
+  }
+}

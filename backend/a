@@ -1,0 +1,18 @@
+benefits:
+- menos releases de la mobile
+- menos carga en la mobile (mejora en los dispositivos más básicos)
+  - menos useEffects
+  - menos renders innecesarios
+  - menos lógica del lado de la mobile
+  - la información que viaja es la justa y necesaria
+- menos conflictos de merge
+- mismo flujo en distintos dispositivos
+- regionalización más simple
+- implementación inmediata
+- metricas inmediatas y gratuitas
+- a/b testing sin un sdk del lado del cliente
+
+cons:
+complejidad de implementación inicial
+  - si se hacen sdks desde frontops es más simple, se definen contratos y solamente queda usarlos
+retrocompatibilidad con lo que tenemos actualmente
